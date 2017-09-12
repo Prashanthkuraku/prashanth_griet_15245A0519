@@ -185,9 +185,9 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
 		// Add your implementation here
-               int n=indexOfStudent-1;
-               LocalDate ld = new java.sql.Date(date.getTime()).toLocalDate();
-            int println =(int) Period.between(students[n].birthDate,LocalDate.now());
+              // int n=indexOfStudent-1;
+              // LocalDate ld = new java.sql.Date(date.getTime()).toLocalDate();
+           // int println =(int) Period.between(students[n].birthDate,LocalDate.now());
 
 		return 0;
 	}
